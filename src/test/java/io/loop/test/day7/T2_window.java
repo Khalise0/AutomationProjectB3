@@ -2,8 +2,9 @@ package io.loop.test.day7;
 
 import io.loop.test.base.TestBase;
 import io.loop.test.utilities.BrowserUtilities;
+import org.junit.Test;
 import org.openqa.selenium.JavascriptExecutor;
-import org.testng.annotations.Test;
+
 
 import java.util.Set;
 
