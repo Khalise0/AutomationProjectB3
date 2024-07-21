@@ -15,7 +15,7 @@ public class LoopPracticeDragDropPage {
         // this points on LoopPracticeDragDropPage class
     }
 
-    @FindBy(xpath = "1//div[@id='draggable']")
+    @FindBy(xpath = "//div[@id='draggable']")
     public WebElement smallCircle;
 
     @FindBy(id = "droptarget")

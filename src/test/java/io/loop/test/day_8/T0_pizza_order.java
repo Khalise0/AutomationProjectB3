@@ -25,9 +25,9 @@ public class T0_pizza_order extends TestBase {
     public void test_pizza_type(){
         driver.get("https://loopcamp.vercel.app/web-tables.html");
         String name = "Samuel Jackson";
-        String expectedPizzaType = "Italian";
+        String expectedPizzaType = "2";
 
-        String actualPizzaType = PizzaOrderWebTablesUtil.returnAnyFieldValue(driver, name, "Pizza Type");
+        String actualPizzaType = PizzaOrderWebTablesUtil.returnAnyFieldValue(driver, name, "amount");
 
         System.out.println("actualPizzaType = " + actualPizzaType);
 
